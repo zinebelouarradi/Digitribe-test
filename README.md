@@ -1,5 +1,5 @@
 <h2> Digitribe technical test</h2>
-<h3> backend using Spring Boot </h3>
+<h3> Backend using Spring Boot </h3>
 
 <h4> Part 1</h4>
 <ol>
@@ -14,6 +14,7 @@
 
 <li>I then moved to creating a PersonService service that allows to return an arbitrary listof persons.</li>
 <li> I created the Controller PersonneController to handle requests coming from the client. That I manually set at the address http://localhost:3000/ that hosts my front end application</li>
+<h3> Front end using React </h3>
 <li> I then Set up a ReactJS front-end application that allows to invoke
 the back-end service performed, and display the list of objects in a table,
 with the possibility of sorting </li>

@@ -19,10 +19,10 @@
 <li> I then set up a ReactJS front-end application to call my Spring Boot API and display the fetched data with the possibility of sorting (Ascending and descending order).
  I created:
  
- 3 Components: 
+ <li>3 Components:
  PersonCompenent: Main component for displaying data in a table.
  NavigationBar: Simple navigation bar with Digitribe logo.
- Footer: Simple footer.
+ Footer: Simple footer.</li>
  
  1 Service:
  PersonneService: An axios-based service to retrieve data  from my REST API, hosted at http://localhost:8080/api/personnes/

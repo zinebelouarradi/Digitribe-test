@@ -14,13 +14,19 @@
     Gender
 
 <li>I then moved to creating a Person JpaRepository, as well as a PersonService, that allows returning an arbitrary list of people. </li>
-<li> I created the Controller PersonneController to handle requests coming from the client. That I manually set at the address http://localhost:3000/ that hosts my front end application</li>
+<li> I created the Controller PersonneController to handle requests coming from the client, that I manually set at the address http://localhost:3000/ that locally hosts the client</li>
 <h3> Front end using React </h3>
-<li> I then set up a ReactJS front-end application to call myour Spring Boot API and sisplay the result with the possibility of sorting both (Ascending and descending order).
- I created three Components: 
- PersonCompenent: 
- NavigationBar:
- Footer:
+<li> I then set up a ReactJS front-end application to call my Spring Boot API and display the fetched data with the possibility of sorting (Ascending and descending order).
+ I created:
+ 
+ 3 Components: 
+ PersonCompenent: Main component for displaying data in a table.
+ NavigationBar: Simple navigation bar with Digitribe logo.
+ Footer: Simple footer.
+ 
+ 1 Service:
+ PersonneService: An axios-based service to retrieve data  from my REST API, hosted at http://localhost:8080/api/personnes/
+ 
 </li>
 </ol>
 <h4> Part 2</h4>

@@ -1,9 +1,10 @@
 <h2> Digitribe technical test</h2>
-<h3> Backend using Spring Boot </h3>
+
 
 <h4> Part 1</h4>
+
 <ol>
- 
+ <h3> Backend using Spring Boot </h3>
 <li>I started with setting up a simple Java back-end application, with Spring Boot,  to expose a REST API with 20 Java objects of the type Personne
   with the following attributes :
 

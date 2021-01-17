@@ -21,7 +21,7 @@
  
  Three Components:<br/>
  <br/>
- <b>PersonCompenent:</b> Main component for displaying data in a table.<br/>
+ <b>PersonComponent:</b> Main component for displaying data in a table.<br/>
  <b>NavigationBar:</b> Simple navigation bar with Digitribe logo.<br/>
  <b>Footer:</b> Simple footer.<br/>
  

@@ -10,7 +10,7 @@
     Name 
     First name 
     Age 
-    Gender</li>
+    Gender
 
 <li>I then moved to creating a PersonService service that allows to return an arbitrary listof persons.</li>
 <li> I created the Controller PersonneController to handle requests coming from the client. That I manually set at the address http://localhost:3000/ that hosts my front end application</li>

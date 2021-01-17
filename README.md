@@ -34,9 +34,12 @@
 <h4> Part 2</h4>
 <ol>
   <li>I Added the embedded H2  database in memory mode</li>
-  <li>I Created a sample of the database of 20 objects</li>
-  <li>I had to Update PersonService to retrieve the list from H2</li>
-  <li>I added tha pagination on the server-side, because it's more practical, allowing a faster initial page loading, and it's perfect when navigating through a large dataset. I finally modified my frontend application to implement the spring boott allowing users to navigate the table of results.</li>
+
+The Spring project was initialized with a H2 database dependency. Spring Boot was then configured to connect the application to the in-memory database (via acting on the <i>application.properties</i> file)
+ 
+  <li>I Created a sample of the database of 20 objects, stored under data.sql in <i>src/main/resources</i>, which can also be accessed and modified via the H2 console</li>
+
+  <li>When working on pagination, I opted for server-side pagination because it's more practical, allowing a faster initial page loading, and it could be perfect for large datasets. The front-end application was eventually modified to implement the server-side pagination, allowing users to navigate the table of Personnes.</li>
 </ol>
 
 <img src="https://github.com/zinebelouarradi/Digitribe-test/blob/main/Capture.PNG?raw=true"></img>
